@@ -16,7 +16,7 @@
 
 ## 第 1 步：打开正确目录
 
-先在Codex中打开整个 Documents/AI-90天学习 文件夹。打开项目终端，执行：
+先在Codex中打开整个 /Users/fight/PycharmProjects/Learning-Lab 文件夹。打开项目终端，执行：
 
     pwd
     ls
@@ -50,7 +50,7 @@
 
 保持网页服务所在终端不动，另开一个项目终端，回到课程总目录再提交：
 
-    cd /Users/fight/Documents/AI-90天学习
+    cd /Users/fight/PycharmProjects/Learning-Lab
     git status
     git add engineering-lab-01
     git commit -m "chore(lab): add engineering lab starter"
@@ -69,17 +69,17 @@
 
 使用页面顶部三个按钮：
 
-1. 正常数据：显示绿色“数据读取成功”。
-2. 缺少字段：显示红色“字段缺失：status”。
-3. 文件不存在：显示红色“读取失败：HTTP 404”。
+1. 正常数据：显示绿色“数据读取成功”。（读取文件：api-observation.json）
+2. 缺少字段：显示红色“字段缺失：status”。（读取文件：api-observation.missing-field.json）
+3. 文件不存在：显示红色“读取失败：HTTP 404”。（读取文件：does-not-exist.json）
 
 把实际看到的结果填写到 verification.md。不要只写“通过”。
 
 ## 第 6 步：检查变化并第二次提交
 
-仍在 AI-90天学习 总目录执行：
+仍在 Learning-Lab 总目录执行：
 
-    cd /Users/fight/Documents/AI-90天学习
+    cd /Users/fight/PycharmProjects/Learning-Lab
     git diff
     git status
     git add engineering-lab-01/api-observation.json engineering-lab-01/plan.md engineering-lab-01/verification.md
