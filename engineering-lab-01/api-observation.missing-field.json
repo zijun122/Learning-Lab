@@ -1,0 +1,6 @@
+{
+  "request_url": "https://api.github.com/repos/openai/openai-python",
+  "method": "GET",
+  "content_type": "application/json",
+  "purpose": "这是固定的缺字段测试样本，故意没有 status"
+}

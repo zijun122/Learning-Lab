@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>工程实验 01 · JSON 状态页</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;color:#142033;background:#eef2f7}*{box-sizing:border-box}body{margin:0}main{max-width:920px;margin:40px auto;padding:0 20px}header{margin-bottom:22px}h1{margin:0;font-size:30px}header p{color:#607089}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.toolbar button{border:1px solid #c9d4e3;border-radius:8px;background:#fff;padding:10px 14px;font-weight:700;cursor:pointer}.toolbar button.active{background:#1859d1;border-color:#1859d1;color:#fff}.status{padding:14px 16px;border-radius:10px;background:#fff;border-left:5px solid #7d8aa0}.status.success{border-color:#16805c;background:#effaf5}.status.error{border-color:#c43d4b;background:#fff2f3}.meta{margin-top:8px;color:#607089;font-size:13px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}.field{padding:16px;border-radius:10px;background:#fff;border:1px solid #dbe2eb}.field span,.field strong{display:block}.field span{color:#6a788e;font-size:12px}.field strong{margin-top:7px;overflow-wrap:anywhere}.foot{margin-top:22px;color:#6a788e;font-size:13px}@media(max-width:640px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <header><h1>工程实验 01 · JSON 状态页</h1><p>本页代码已经完成。你只修改 api-observation.json，并验证三种运行结果。</p></header>
+    <div class="toolbar" aria-label="固定测试路径">
+      <button type="button" data-source="api-observation.json">正常数据</button>
+      <button type="button" data-source="api-observation.missing-field.json">缺少字段</button>
+      <button type="button" data-source="does-not-exist.json">文件不存在</button>
+    </div>
+    <section id="status" class="status">尚未读取数据</section>
+    <section id="fields" class="grid" aria-live="polite"></section>
+    <p class="foot">如果页面通过 file:// 打开，浏览器会阻止读取本地 JSON。请按 README 使用本地服务器。</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

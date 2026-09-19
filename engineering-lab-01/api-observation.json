@@ -1,0 +1,7 @@
+{
+  "request_url": "https://api.github.com/repos/openai/openai-python",
+  "method": "GET",
+  "status": 200,
+  "content_type": "application/json",
+  "purpose": "TODO：改成你自己的说明"
+}
