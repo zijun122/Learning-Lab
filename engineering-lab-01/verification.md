@@ -21,8 +21,8 @@
 ## Git证据
 
 - 第一次 commit ID：95fd1e2
-- 第二次 commit ID：
-- git log --oneline -2 输出：
+- 第二次 commit ID：189a190
+- git log --oneline -2 输出：189a190 (HEAD -> main, origin/main, origin/HEAD) docs(lab): record git verification evidence
 diff --git a/engineering-lab-01/README.md b/engineering-lab-01/README.md
 index 0c2099a..9ee6e7c 100644
 --- a/engineering-lab-01/README.md
