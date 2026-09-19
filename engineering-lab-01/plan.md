@@ -18,12 +18,12 @@
 
 ## 验收条件
 
-- [✅] 本地页面可以通过 http://localhost 打开
-- [✅] 正常 JSON 能显示全部字段
-- [✅] purpose 已改成自己的说明，并新增 checked_by
-- [✅] 缺字段时明确指出 status 缺失
-- [✅] 文件不存在时明确显示 HTTP 404
-- [✅] 有两次语义明确的 Git 提交
+- [x] 本地页面可以通过 http://localhost 打开
+- [x] 正常 JSON 能显示全部字段
+- [x] purpose 已改成自己的说明，并新增 checked_by
+- [x] 缺字段时明确指出 status 缺失
+- [x] 文件不存在时明确显示 HTTP 404
+- [x] 有两次语义明确的 Git 提交
 
 ## 开始前最大的风险
 

@@ -24,9 +24,9 @@
     pwd
     ls
 
-正常结果：第一次pwd以AI-90天学习结尾；第一次ls能看到engineering-lab-01；进入后ls至少能看到README.md、index.html、app.js和两个JSON文件。
+正常结果：第一次pwd以/Users/fight/PycharmProjects/Learning-Lab结尾；第一次ls能看到engineering-lab-01；进入后ls至少能看到README.md、index.html、app.js和两个JSON文件。
 
-如果Codex提示 potentially untrusted project，不要继续重复Git命令。这表示你打开的是Downloads或单个子文件夹；重新在Codex中打开整个 /Users/fight/Documents/AI-90天学习 后再做。
+如果Codex提示 potentially untrusted project，不要继续重复Git命令。这表示你打开的是Downloads或单个子文件夹；重新在Codex中打开整个 /Users/fight/PycharmProjects/Learning-Lab 后再做。
 
 ## 第 2 步：启动页面
 
